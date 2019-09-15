@@ -1,3 +1,5 @@
+# github.com/Unknwon/goconfig v0.0.0-20190425194916-3dba17dd7b9e
+github.com/Unknwon/goconfig
 # github.com/gin-contrib/sse v0.0.0-20190301062529-5545eab6dad3
 github.com/gin-contrib/sse
 # github.com/gin-gonic/gin v1.4.0
@@ -7,6 +9,10 @@ github.com/gin-gonic/gin/internal/json
 github.com/gin-gonic/gin/render
 # github.com/golang/protobuf v1.3.1
 github.com/golang/protobuf/proto
+# github.com/jinzhu/gorm v1.9.10
+github.com/jinzhu/gorm
+# github.com/jinzhu/inflection v1.0.0
+github.com/jinzhu/inflection
 # github.com/json-iterator/go v1.1.6
 github.com/json-iterator/go
 # github.com/mattn/go-isatty v0.0.7

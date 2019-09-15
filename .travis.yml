@@ -1,0 +1,21 @@
+language: go
+
+go:
+  - 1.12.x
+  - trip
+
+
+sudo:false
+
+install:
+  - export GOPATH=$HOME/gopath/src/
+  - export PATH=$PATH:$HOME/gopath/src/Icarus/bin/
+
+script:
+  - sh getpkg.sh
+  - sh install.sh
+
+go install Icarus
+
+
+echo 'finished'

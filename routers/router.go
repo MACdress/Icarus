@@ -1,13 +1,18 @@
 package routers
 
-import "github.com/gin-gonic/gin"
+import (
+	"Icarus/config"
+	"github.com/gin-gonic/gin"
+)
 
-func main()  {
-	router:=gin.Default()
-	user :=router.Group("/user")
+func registerRouters(router *gin.Engine,conf *config.Config) {
+	router := gin.Default()
+	user := router.Group("/user")
 	{
 		user.POST("/login")
 	}
+	excel := router.Group("/excel")
+	{
 
-	_ = router.Run(":8080")
+	}
 }
